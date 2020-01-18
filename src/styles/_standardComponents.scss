@@ -1,0 +1,33 @@
+  .text-input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 50%;
+    margin-top: 0.2rem;
+    height: 2rem;
+    font-size: 1rem;
+    padding: 5px;
+  }
+  
+  .button {
+    background: pink;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 2;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px 35px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: white;
+    border-color: transparent;
+    @media (max-width: 45rem) {
+      width: 60%;
+  }
+  }
+
+  .button:hover{
+    color: white;
+    background: $blue;
+  }
+
