@@ -14,9 +14,6 @@ class CarouselApp extends React.Component{
         },
         imageText: ''
     }
-    componentDidMount(){
-        
-    }
 
     onImageClick = (i)=>{
         getImageDetails(i).then((data)=>{
