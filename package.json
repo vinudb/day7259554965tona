@@ -16,7 +16,7 @@
     "react-dom": "^16.10.2",
     "react-items-carousel": "^2.8.0",
     "react-promise-tracker": "^2.0.5",
-    "react-scripts": "3.2.0",
+    "react-scripts": "5.0.1",
     "tesseract.js": "^2.0.2"
   },
   "browserslist": {
